@@ -1,0 +1,16 @@
+# ============================================================
+# Face Recognition App — Dependencies (Desktop)
+# Cài đặt:  pip install -r requirements.txt
+# Bổ sung ở các bước sau: boto3 (Bước 16 - R2), PyInstaller (Bước 18)
+# ============================================================
+
+numpy
+opencv-python
+PySide6
+insightface
+onnxruntime-directml
+Pillow
+argon2-cffi
+httpx                  # HTTP client — gọi Cloudflare D1 REST API (Bước 15)
+boto3                  # S3-compatible SDK — upload ảnh lên Cloudflare R2 (Bước 16)
+pyodbc                 # Kết nối SQL Server local (FaceRecognitionDB)
